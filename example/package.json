@@ -1,0 +1,26 @@
+{
+  "name": "shadcn-video-player-example",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-player": "^2.14.1",
+    "tailwindcss": "^3.4.1",
+    "shadcn-video-player": "file:.."
+  },
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.57",
+    "@types/react-dom": "^18.2.19",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.35",
+    "typescript": "^5.3.3",
+    "vite": "^5.1.4"
+  }
+} 
