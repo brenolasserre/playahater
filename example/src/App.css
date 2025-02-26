@@ -141,4 +141,49 @@ html {
   padding: 1rem;
   color: #666;
   border-top: 1px solid #eee;
-} 
+}
+
+/* Add these transition classes */
+.transition-all {
+  transition-property: all;
+}
+
+.duration-700 {
+  transition-duration: 700ms;
+}
+
+.ease-out {
+  transition-timing-function: ease-out;
+}
+
+.transform {
+  transform: translateZ(0);
+}
+
+.translate-y-0 {
+  transform: translateY(0);
+}
+
+.translate-y-10 {
+  transform: translateY(2.5rem);
+}
+
+.opacity-0 {
+  opacity: 0;
+}
+
+.opacity-100 {
+  opacity: 1;
+}
+
+.delay-100 {
+  transition-delay: 100ms;
+}
+
+.delay-200 {
+  transition-delay: 200ms;
+}
+
+.delay-300 {
+  transition-delay: 300ms;
+}
