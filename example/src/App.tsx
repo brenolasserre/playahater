@@ -43,10 +43,10 @@ const App: React.FC = () => {
       <section className="py-20 sm:py-32">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto mb-16">
-            <h1 className={`text-balance text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight mb-6 text-[#1B1B18] transition-all duration-700 ease-out transform ${isMounted ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
+            <h1 className="text-balance text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight mb-6 text-[#1B1B18]">
               Showcase your videos in style.
             </h1>
-            <p className={`text-lg text-balance w-4/5 mx-auto text-[#1B1B18]/60 mb-8 transition-all duration-700 ease-out transform delay-100 ${isMounted ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
+            <p className="text-lg text-balance w-4/5 mx-auto text-[#1B1B18]/60 mb-8">
               Video player component for React. <br /> Beautiful. Accessible. Customizable. Open Source.
             </p>
 
@@ -72,16 +72,16 @@ const App: React.FC = () => {
             </div>
           </div> 
 
-        
+          {/* w-4/5 mt-[30rem] */}
           {/* Video Player Demo */}
-          <div className="w-4/5 mx-auto rounded-2xl overflow-hidden shadow-xl">
+          <div className="mx-auto rounded-2xl overflow-hidden shadow-xl">
             <VideoPlayer
               url="https://family.co/videos/promo-collectibles.mp4"
               videoTitle="Family Collectibles"
               width="100%"
               containerClassName="rounded-2xl"
               chapters={chapters}
-              showFullscreenButton={false}
+              showFullscreenButton={true}
               showVolumeControl={false}
             />
           </div>
